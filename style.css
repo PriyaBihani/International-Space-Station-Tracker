@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+ background-image: url('heading-image.png');
+ background-color: rgb(7, 10, 53);
+ background-blend-mode: multiply;
+ background-size:cover ;
+}
+
+
+#heading{
+    background-image: url('background-image.png');
+    background-color: rgb(77, 80, 153);
+    background-blend-mode: multiply;
+    background-size:cover ;
+    font-family: Metal mania;
+    font-size: 5vh;
+    text-align: center;
+    margin: 10px;
+    color: white;
+   
+}  
+h1{
+    border-bottom: 2px solid  #EDF5E1;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#details{
+    border: 3px solid  #EDF5E1;
+    padding:60px 40px;
+    border-radius: 50%;
+    font-family:Raleway ;
+    color: white;
+}
+#issMap{
+    height:50vh;
+    width : 50vw;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid  #EDF5E1;
+}
+#footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position:fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+    border-top: 2px solid #EDF5E1;
+    padding:30px;
+    background-image: url('background-image.png');
+    background-color: rgb(18, 20, 85);
+    background-blend-mode: multiply;
+    background-size:cover ;
+}
+#footer-text{
+   font-family: Metal Mania;
+   font-size: 6.5vh;
+   color:white;
+}
+.footer-img{
+   height:40px;
+   width:40px;
+   border-radius:50%;
+}

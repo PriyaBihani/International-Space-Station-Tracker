@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href ="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <header id = "heading">
+      <h1> Where is the iss?</h1>
+    </header>
+    <section>
+      <div id= "container">
+        <div id = "details">
+          latitude :<span id = 'lat'></span> <br>
+          longitude :<span id = 'lon'></span>
+        </div> 
+        <div id = "issMap"> </div>
+    </div>
+  </section>
+  <footer>
+    <div id = "footer">
+      <span id= "footer-text">Priya Bihani's Project</span>
+      <span  ><a href = "#insta"><img src= "insta-logo.png" class = "footer-img" ></a></span>
+  </div>
+  </footer>
+   <script src="./index.js"></script>
+</body>
+</html>
