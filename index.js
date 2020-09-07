@@ -1,11 +1,10 @@
  //First it is going to make a map with a blank grey box in the line 2 then next line onwards it will start making tiles only when it is connected to the leaflet.js library through internet 
  // TO avoid the default marker icon we are gonna create a default marker icon in line 12th onwards. Then we are gonna set initial marker lat lon and icon and add to map and store it in a variable  
  const mymap = L.map('issMap').setView([0, 0], 1);
- L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox.streets',
-    accessToken: 'pk.eyJ1Ijoia2FydGlrMThnIiwiYSI6ImNrMmg0ZXByMTAyYnEzY29laHIxYmJ6NzIifQ.jNjY-tnIhfG-GTMxc2jDbw'
+// Getting the map from leaflert api and setting tiles
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(mymap);
 
 //Making a marker with a icon
